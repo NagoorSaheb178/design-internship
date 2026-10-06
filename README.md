@@ -1,94 +1,41 @@
-# AI Product Design Intern — AmberStudent
+# Application: Shaik Nagoor Saheb
 
-> Most design internships have you pushing pixels and waiting for feedback.
-> This one's different.
+## 1. Name
 
-We're hiring an **AI Product Design Intern** at [AmberStudent](https://amberstudent.com) — someone who doesn't think like a traditional designer.
+Shaik Nagoor Saheb
 
-**Location:** Pune · 5 days onsite
-**Stipend:** ₹25,000 / month
-**Duration:** 6 months, with offer to convert
-**Start:** ASAP
+## 2. Portfolio
 
-The full role is on the site: **[design.amberstudent.com](https://design.amberstudent.com)** _(replace with your deployed URL)_
+https://nagoor-saheb-portfolio.vercel.app/
 
----
+## 3. LinkedIn
 
-## Applying <a id="applying"></a>
+https://www.linkedin.com/in/nagoor-saheb-shaik-b01926291/
 
-We don't use forms. You apply by opening a pull request.
+## 4. A project you've shipped recently
 
-### 1. Fork this repo
+### AI Persona Chatbot
 
-Click **Fork** in the top-right of this page.
+https://nagoor-saheb-portfolio.vercel.app/
 
-### 2. Copy the template
+I built an AI version of my professional profile to make a resume more interactive and useful. Instead of a recruiter simply reading through my resume, they can actually have a conversation with my profile and ask questions about my skills, projects, internships, education, and experience.
 
-In your fork, copy `applications/TEMPLATE.md` to `applications/your-name.md`.
+I built the application end-to-end using Next.js, RAG, LLM APIs, and prompt engineering. One part I was particularly interested in was making the interaction feel more natural, so I implemented both **chat and voice interactions independently**. Users can choose how they want to interact, and the AI agent understands the request, retrieves relevant information from my profile, and generates a response based on that context.
 
-```bash
-# locally
-git clone https://github.com/YOUR-USERNAME/design-internship
-cd design-internship
-cp applications/TEMPLATE.md applications/your-name.md
-# edit applications/your-name.md
-git add applications/your-name.md
-git commit -m "Application: Your Name"
-git push
-```
+For the knowledge layer, I used RAG so the LLM doesn't have to rely only on its general knowledge. The system retrieves relevant information from my professional profile and provides it as context to the model before generating the response. This helped me keep the responses grounded in my actual experience instead of allowing the model to make up information.
 
-_Or just do it all in the GitHub UI — click the template file, hit the pencil, and edit in the browser._
+I also integrated **Cal.com** so the agent can do more than just answer questions. It can work with interview availability and help with scheduling. I added input validation and prompt-injection protection because I wanted the system to behave reliably even when users try to provide instructions that conflict with the application's purpose.
 
-### 3. Open a pull request
+I handled the project independently, including the frontend, backend, AI interaction flow, RAG implementation, API integrations, validation, and deployment. The project taught me that building an AI product isn't only about getting an LLM to generate a response. The interaction, context, reliability, edge cases, and overall user experience are equally important.
 
-From your fork, open a PR against this repo's `main` branch.
+If I continue improving it, I would explore more visual and conversational ways of presenting information rather than treating every interaction as a normal chatbot conversation.
 
-- **Title:** `Application: Your Name`
-- **Body:** A one-line "hello" is plenty. Everything we need is in your markdown file.
+## 5. Why you want to join Amber
 
-### 4. That's it
+What interests me about Amber is that this role looks at product design differently. I like the idea of designing experiences around what AI can actually do rather than simply adding AI to an existing screen.
 
-We read every PR. You'll hear back within a week.
+My background is mainly in building AI and full-stack products, and while working on projects like my AI Persona Chatbot, I became interested in how the interaction itself changes when the product can understand natural language, retrieve context, use tools, and respond through voice or chat.
 
----
+Amber solves a real problem for students who are searching for accommodation in a new city or country. There is a lot of information, comparison, decision-making, and uncertainty involved, and I think AI can make that experience much more simple and personalized.
 
-## New to GitHub?
-
-Don't stress — it's the first thing we'd teach you anyway. Here's the short version:
-
-1. **Fork** = your own copy of this repo, on your account.
-2. **Commit** = saving a version of your change with a message.
-3. **Pull request** = "hey, please consider merging my change."
-
-GitHub has a [3-minute interactive tutorial](https://docs.github.com/en/get-started/quickstart/hello-world). If you get stuck, that's honestly part of the signal — how you navigate unfamiliar systems matters for this role.
-
----
-
-## What we're looking for in the PR itself
-
-Beyond the markdown content, we notice:
-
-- **How you write.** Clarity, voice, directness.
-- **How you navigate a new system.** The PR itself is a design artifact.
-- **How you think about Amber.** The "one thing you'd redesign" section is where most signal lives.
-- **Taste.** Is your markdown formatted well? Did you link cleanly? Small things matter.
-
----
-
-## What we won't look at
-
-- Cover letters
-- Generic CVs that don't reference Amber
-- Applications sent over email, LinkedIn DM, or form
-
-We mean it. Please use the PR flow.
-
----
-
-## Questions
-
-Open an [issue](https://github.com/sudo-anmol/design-internship/issues) with the `question` label. Don't email — it's the same signal filter.
-
----
-
-_Built by the team at [Amber](https://amberstudent.com). Making student housing feel like home, worldwide._
+I’d like to bring my engineering and AI experience while learning more about product thinking, interaction design, and how to turn AI capabilities into experiences that people actually enjoy using.
